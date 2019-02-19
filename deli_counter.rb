@@ -1,12 +1,12 @@
 # Write your code here.
 #
 
+[1, 2, 3, 4]
 
-
-def take_a_number(array, name)
-  array.push(name)
-  position = array.index(name)
-  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+def take_a_number(array)
+  array_size = array.length
+  puts "Welcome. You are number #{array_size} in line."
+  array << array_size + 1
 end
 
 def line(array)
