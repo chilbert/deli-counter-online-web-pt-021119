@@ -32,4 +32,3 @@ end
 deli = []
 now_serving(deli)
 take_a_number(deli, "chase")
-
