@@ -31,3 +31,4 @@ end
 
 deli = []
 take_a_number(deli, "chase")
+now_serving(deli)
