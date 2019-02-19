@@ -30,5 +30,6 @@ def now_serving(array)
 end
 
 deli = []
-take_a_number(deli, "chase")
 now_serving(deli)
+take_a_number(deli, "chase")
+
